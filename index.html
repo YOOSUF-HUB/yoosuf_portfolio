@@ -3,99 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Yoosuf Ahamed | Resume</title>
-    <link rel="stylesheet" href="index.css" />
-    <!-- Add Font Awesome for the cog icon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for the cog icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
 
 </head>
 <body>
 
-    <div style="margin-left: 100px; margin-right: 100px; margin-bottom: 50px;">
-        <div id="construction">
-            <ul id="construction-text">
-                <i class="fas fa-cog cog"></i><br><br>
-                <li>Portfolio Under Construction</li>
 
+    <main class="bg-gray-50 min-h-screen font-sans">
+        <section class="flex flex-col items-center py-12">
+            <div class="flex flex-col items-center gap-4">
+                <div class="flex items-center gap-2 text-blue-600 text-xl font-semibold">
+                    <i class="fas fa-cog animate-spin"></i>
+                    <span class="text-gray-700">Portfolio Under Construction</span>
+                </div>
+                <img src="Profile Pic.png" alt="Profile Picture" class="rounded-full shadow-lg w-40 h-40 object-cover border-4 border-blue-500" />
+                <h1 class="text-4xl font-bold text-gray-900 mt-4">Yoosuf Ahamed</h1>
+                <nav class="flex gap-4 mt-2">
+                    <a href="https://www.facebook.com/profile.php?id=100010686521053" target="_blank" class="hover:scale-110 transition"><img src="facebook-svgrepo-com.svg" alt="Facebook" class="w-8 h-8" /></a>
+                    <a href="https://www.linkedin.com/in/yoosuf-ahamed-21982026a/" target="_blank" class="hover:scale-110 transition"><img src="linkedin.svg" alt="LinkedIn" class="w-8 h-8" /></a>
+                    <a href="#" target="_blank" class="hover:scale-110 transition"><img src="instagram-svgrepo-com.svg" alt="Instagram" class="w-8 h-8" /></a>
+                    <a href="https://wa.me/94763073009" target="_blank" class="hover:scale-110 transition"><img src="whatsapp.png" alt="WhatsApp" class="w-8 h-8" /></a>
+                </nav>
+            </div>
+        </section>
+
+        <section class="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-8 mb-8">
+            <h2 class="text-2xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><i class="fas fa-user"></i> Professional Summary</h2>
+            <p class="text-gray-700 text-lg">I am a dedicated and detail-oriented data scientist committed to delivering high-quality results within deadlines. With a strong foundation in technology and a passion for continuous learning, I bring a proactive approach to every task I undertake.</p>
+        </section>
+
+        <section class="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-8 mb-8">
+            <h2 class="text-2xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><i class="fas fa-graduation-cap"></i> Education</h2>
+            <ul class="list-disc list-inside text-gray-700 text-lg">
+                <li>SLIIT - Bachelor of Science in Information Technology, Specialization in Data Science (Reading)</li>
             </ul>
-        </div>
-    </div>
+        </section>
 
-    <h1 id="name"><br>Yoosuf Ahamed</h1>
-    <img src="Profile Pic.png" alt="Profile Picture" />
-
-    <nav id="social" style="display: flex; justify-content: center;">
-        <ul id="other-button-social">
-            <li><a href="https://www.facebook.com/profile.php?id=100010686521053" target="_blank"><img src="facebook-svgrepo-com.svg" alt="Facebook Profile" id="socialmedia"></a></li>
-            <li><a href="https://www.linkedin.com/in/yoosuf-ahamed-21982026a/" target="_blank"><img src="linkedin.svg" alt="LinkedIn Profile" id="socialmedia"></a></li>
-            <li><a target="_blank"><img src="instagram-svgrepo-com.svg" alt="Instagram Profile" id="socialmedia"></a></li>
-            <li><a href="https://wa.me/94763073009" target="_blank"><img src="whatsapp.png" alt="WhatsApp Profile" id="socialmedia"></a></li>
-
-        </ul>
-    </nav>
-    
-    <div style="margin-left: 100px; margin-right: 100px; margin-bottom: 50px;">
-        <h2 class="heading" id="Summary">Professional Summary</h2>
-        <p>I am a dedicated and detail-oriented individual committed to delivering high-quality results within deadlines. With a strong foundation in technology and a passion for continuous learning, I bring a proactive approach to every task I undertake.</p>
-
-    </div>
-
-    <div style="margin-left: 100px; margin-right: 100px; margin-bottom: 50px;">
-        <h2 class="heading" id="Education">Education</h2>
-        <ul id="education-loc">
-            <li>SLIIT - Bachelor of Science in Information Technology, Specialization in Data Science (Reading)</li>
-        </ul>
-
-    </div>
-
-    <div style="margin-left: 100px; margin-right: 100px; margin-bottom: 50px;">
-
-        <h2 class="heading" id="Work">Work Experience</h2>
-        <div id="work">
-            <ul id="work-text">
+        <section class="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-8 mb-8">
+            <h2 class="text-2xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><i class="fas fa-briefcase"></i> Work Experience</h2>
+            <ul class="list-disc list-inside text-gray-700 text-lg">
                 <li>CATENAA - Web Content Manager</li>
             </ul>
-        </div>
+        </section>
 
-    </div>
-
-    <div style="margin-left: 100px; margin-right: 100px; margin-bottom: 50px;">
-
-        <h2 class="heading" id="Skills">Technical Skills</h2>
-        <div id="skill">
-            <ul id="skill-text">
+        <section class="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-8 mb-8">
+            <h2 class="text-2xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><i class="fas fa-laptop-code"></i> Technical Skills</h2>
+            <ul class="list-disc list-inside text-gray-700 text-lg">
                 <li>Web Development</li>
+                <li>Data Analysis & Visualization</li>
+                <li>Machine Learning</li>
+                <li>Python, R, SQL</li>
+                <li>Statistical Modeling</li>
             </ul>
-        </div>
+        </section>
 
-    </div>
-
-
-    <div style="margin-left: 100px; margin-right: 100px; margin-bottom: 50px;">
-
-        <h2 class="heading" id="Project">Projects</h2>
-        <div id="project">
-            <ul id="project-text">
-                <a href="https://github.com/YOOSUF-HUB/TGMS-G13.git" style="text-decoration: none; color: black;" target="_blank"><li >Textile and Garment Management System</li></a>
+        <section class="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-8 mb-8">
+            <h2 class="text-2xl font-semibold text-blue-700 mb-2 flex items-center gap-2"><i class="fas fa-project-diagram"></i> Projects</h2>
+            <ul class="list-disc list-inside text-gray-700 text-lg">
+                <li><a href="https://github.com/YOOSUF-HUB/TGMS-G13.git" class="text-blue-600 hover:underline" target="_blank">Textile and Garment Management System</a></li>
             </ul>
-        </div>
+        </section>
 
+        <section class="flex justify-center gap-4 mb-12">
+            <a href="about.html" target="_blank" class="bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 transition font-semibold">About Me</a>
+            <a href="contact.html" target="_blank" class="bg-blue-600 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-700 transition font-semibold">Contact</a>
+        </section>
 
-
-        <div id="link" style="padding: 30px;">
-            <nav id="other" style="display: flex; justify-content: center;">
-                <ul id="other-button" style="margin: 10px;">
-                    <li><button><a href="about.html" target="_blank">About Me</a></button></li>
-                    <li><button><a href="contact.html" target="_blank">Contact</a></button></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-
-    <footer>
-        <p>© 2024 Yoosuf Ahamed</p>
-    </footer>
+        <footer class="bg-blue-700 text-white text-center py-4 rounded-t-xl shadow-md">
+            <p class="text-lg">© 2024 Yoosuf Ahamed</p>
+        </footer>
+    </main>
 
 </body>
 </html>
